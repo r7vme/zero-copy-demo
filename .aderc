@@ -1,0 +1,4 @@
+export ADE_IMAGES="
+  zero-copy-demo:latest
+"
+export ADE_NAME=zero-copy-demo
