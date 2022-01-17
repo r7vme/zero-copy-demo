@@ -1,4 +1,4 @@
-FROM osrf/ros:rolling-desktop
+FROM osrf/ros:galactic-desktop
 
 # upgrade to latest rolling
 RUN apt-get update && apt-get upgrade -y \
