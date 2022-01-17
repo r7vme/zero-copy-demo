@@ -7,4 +7,5 @@
 .local
 .ros
 .wget-hsts
-ws
+.config
+video.mp4
