@@ -9,7 +9,6 @@ windows:
     panes:
       - ros2 run shm_vision_demo object_detector
       - ros2 run shm_vision_demo display
-      - btm --config ../configs/btm.toml
   - window_name: ROS nodes (Background)
     layout: "tiled"
     panes:
@@ -17,4 +16,6 @@ windows:
       - ros2 run shm_vision_demo filter
       - ros2 run shm_vision_demo edge_detector
       - ros2 run shm_vision_demo optical_flow
-
+  - window_name: Performance
+    panes:
+      - sudo btm
