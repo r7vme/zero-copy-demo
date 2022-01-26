@@ -8,5 +8,7 @@
 .ros
 .wget-hsts
 .config
+.gitconfig
+.tmux.conf
 video.mp4
 ws
